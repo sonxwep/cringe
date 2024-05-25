@@ -1,0 +1,444 @@
+@import url("./fonts.css");
+
+* {
+    font-family: "Manrope-s";
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Manrope-s", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    font-family: "Golos-db";
+}
+
+.bg-body-tertiary {
+    background-color: rgba(0, 0, 0, 0.945) !important;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.986) !important;
+    overflow-x: hidden;
+}
+
+.navpic {
+    display: flex;
+    margin-left: 170px;
+}
+
+.navpic .nav-item {
+    display: flex;
+}
+
+.navbar-expand-lg .navbar-collapse,
+.bg-body-tertiary {
+    background-color: rgba(0, 0, 0, 0.945) !important;
+    color: #ffffff;
+}
+
+.nav-item a {
+    color: #ffffff;
+    font-family: "Golos-r";
+    font-size: 20px;
+}
+
+.section-neznacom .container {
+    background-image: url(../imgs/1.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+    border-radius: 10%;
+}
+
+.section-neznacom .container img {
+    width: 100%;
+}
+.btn-primary {
+    font-family: "Golos-r";
+}
+.btn-primary2{
+    /*--bs-btn-color: #fff;
+    --bs-btn-bg: #4f6b96;
+    --bs-btn-border-color:#6c7f9c;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #6c7f9c;
+    --bs-btn-hover-border-color: #6c7f9c;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #6c7f9c;
+    --bs-btn-active-border-color:#6c7f9c;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #6c7f9c;
+    --bs-btn-disabled-border-color: #6c7f9c;*/
+    font-family: "Golos-r";
+    background: linear-gradient(45deg,#111d31, #2c3a4b);;
+    color: #ffffff;
+}
+.section-kosmo .container {
+    background-image: url(../imgs/6.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 500px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+.section-kosmo .card {
+    --bs-card-bg: transparent;
+    position: relative;
+    top: 120px;
+    left: 50px;
+}
+.section-neznacom .card-title {
+    margin-bottom: 20px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-family: "Golos-db";
+}
+.zir{
+    font-family: "Golos-b";
+}
+.section-neznacom .card{
+    position: relative;
+    top: 70px;
+}
+
+.section-count .part h2 {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "Golos-db";
+}
+
+.section-count img {
+    height: 400px;
+    width: 550px;
+}
+
+.section-count .part p {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "Golos-r";
+}
+
+.section-count {
+    background-color: #3a3a3a;
+}
+
+.section-count .container {
+    display: flex;
+    margin: 0 auto;
+    gap: 80px;
+    padding: 70px 20px;
+}
+
+.section-count .kusok .pervaia{
+    display: flex;
+    gap: 40px;
+    justify-content: start;
+    flex-direction: column;
+}
+.section-count .kusok .vtoraia {
+    display: flex;
+    gap: 40px;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.kusok .cell .num {
+    font-size: 35px;
+    background-image: linear-gradient(90deg, #0777d3, #b4d7f3e3);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    font-family: "Golos-b";
+    margin: 0;
+}
+
+.kusok .cell p {
+    font-size: 14px;
+}
+.kusok{
+    display: flex;
+    gap: 80px;
+}
+
+.kusok .cell {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control {
+    width: 450px;
+}
+
+.card {
+    --bs-card-bg: transparent;
+}
+.list-group-item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
+    color: #ffffff;
+    text-decoration: none;
+
+    border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
+}
+#cifra {
+    font-size: 35px;
+    background-image: linear-gradient(90deg, #0777d3, #b4d7f3e3);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    font-family: "Golos-b";
+    margin: 0;
+}
+.half .cell .card{
+    margin: 50px ;
+}
+.section-auth label {
+    display: inline-block;
+    margin-right: 6px;
+}
+.half{
+  margin-left: 50px;
+}
+
+h2 {
+    font-size: 35px;
+    color: white;
+    font-family: "Golos-r";
+}
+p {
+color: #ffffff;
+}
+.section-auth label {
+color: #ffffff;
+}
+.card-text:last-child {
+    margin-bottom: 0;
+    font-size: 17px;
+    color: #afaeae;
+    font-family: "Golos-r";
+}
+.card-title {
+    margin-bottom: 20px;
+    color: #ffffff;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-family: "Golos-db";
+}
+.h1, h1 {
+    font-size: calc(1.375rem + 1.5vw);
+    color: #ffffff;
+    font-family: "Golos-db";
+}
+.card-img, .card-img-top {
+    border-radius: 5%;
+}
+
+.nav-item a {
+    color: #ffffff;
+    font-family: "Golos-r";
+    font-size: 18px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: "Golos-r";
+    text-align: left;
+}
+.card-text {
+    width: 400px;
+}
+.h4, h4 {
+    font-size: calc(1.275rem + .3vw);
+    margin-bottom: 25px;
+}
+.opis p:nth-child(2){
+    margin-left: 10px;
+    color: gray !important;
+    font-size: 0.95rem;
+}
+.opis p:nth-child(3){
+    margin-left: 10px;
+    color: gray !important;
+    border: 1px solid gray;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 0.95rem;
+    width: 37px;
+}
+.section-auth label {
+    color: #ffffff;
+    font-family: 'Golos-r';
+}
+.opis{
+    width: 500px;
+}
+.section-kosmo .card-title {
+    margin-bottom: 20px;
+    color: #ffffff;
+    margin-bottom: 0;
+    font-size: 45px;
+    font-family: "Golos-db";
+}
+.section-kosmo .card-text {
+    width: 400px;
+    font-family: "Golos-r";
+}
+.section-kosmo .btn-primary {
+    font-family: "Golos-db";
+}
+.section8 .row .col .row .col{
+    margin-bottom: 15px;
+}
+.text8:nth-child(1){
+    margin-top: 8%;
+    width: 220px;
+}
+.text8{
+    background: linear-gradient(#111d31, #212b37);
+    color: #f0f0f0;
+    display: grid;
+    justify-items: center;
+    margin-bottom: 23px;
+    border-radius: 10px;
+    margin-top: 8%;
+    width: 220px;
+    margin: 40px;
+}
+.text8 p:nth-child(2){
+    font-size: 1.7rem;
+    font-weight: 800;
+    color: #6fb1fc !important;
+}
+.section-count .h3, h3 {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: "Golos-r";
+    margin-top: 20px;
+}
+h2 {
+    font-size: 50px;
+    color: white;
+    font-family: "Golos-b";
+    margin-top: 25px;
+}
+.section-auth .popa {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: "Golos-r";
+    text-align: left;
+    width: 500px;
+}
+.section-auth{
+    height: 700px;
+}
+.half {
+    margin-left: 50px;
+    width: 500px;
+    position: relative;
+    left: 550px;
+    bottom: 550px;
+}
+.section-auth .col {
+    flex: 1 0 0%;
+    width: 600px;
+    gap: 30px;
+}
+.section-end{
+background-color: #3a3a3a;    
+}
+.pod{
+    text-decoration: underline;
+    padding-left: 15px;
+}
+.section-end .container{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.section-auth {
+height: 500px;
+}
+@media (max-width: 1024px) {
+    .container{
+        width: 940px !important ;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .nav-link {
+        font-size: 10px;
+    }
+    .section-neznacom .nav-item img {
+    height: 20px;
+    width: 20px;
+    }
+    .navpic {
+        display: flex;
+        margin-left: 50px;
+    }
+    .section-prosmotr .container{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .section-count img {
+        height: 300px;
+        width: 450px;
+    }
+    .kusok .cell .num {
+        font-size: 30px;
+    }
+    .kusok {
+        display: flex;
+        gap: 40px;
+    }
+    .half {
+        margin-left: 30px;
+        width: 450px;
+        position: relative;
+        left: 500px;
+        bottom: 500px;
+    }
+    .section-auth .col {
+        flex: 1 0 0%;
+        width: 400px;
+        gap: 10px;
+    }
+    .text8{
+        background: linear-gradient(#111d31, #212b37);
+        color: #f0f0f0;
+        display: grid;
+        justify-items: center;
+        margin-bottom: 23px;
+        border-radius: 10px;
+        margin-top: 8%;
+        width: 180px;
+        margin: 25px;
+    }
+    .text8:nth-child(1){
+        margin-top: 8%;
+        width: 180px;
+    }
+    .form-control {
+        width: 400px;
+    }
+    .section-end .container {
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        font-size: 17px;
+    }
+    .social{
+        padding-left: 40px;
+    }
+}
